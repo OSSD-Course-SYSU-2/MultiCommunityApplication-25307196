@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MultiCommunityApplication.iml" filepath="$PROJECT_DIR$/.idea/modules/MultiCommunityApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base.iml" filepath="$PROJECT_DIR$/.idea/modules/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/detail.iml" filepath="$PROJECT_DIR$/.idea/modules/detail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hot.iml" filepath="$PROJECT_DIR$/.idea/modules/hot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/phone.iml" filepath="$PROJECT_DIR$/.idea/modules/phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/picture.iml" filepath="$PROJECT_DIR$/.idea/modules/picture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rank.iml" filepath="$PROJECT_DIR$/.idea/modules/rank.iml" />
+    </modules>
+  </component>
+</project>

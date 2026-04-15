@@ -1,0 +1,17 @@
+{
+  "license": "",
+  "devDependencies": {},
+  "author": "",
+  "name": "phone",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dynamicDependencies": {},
+  "dependencies": {
+    "hot": "file:../../features/hot",
+    "base": "file:../../commons/base",
+    "detail": "file:../../features/detail",
+    "rank": "file:../../features/rank",
+    "picture": "file:../../features/picture"
+  }
+}

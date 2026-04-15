@@ -1,0 +1,648 @@
+{
+  "version": 1,
+  "ohos-module-phone": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "F:\\MultiCommunityApplication\\products\\phone\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "F:\\MultiCommunityApplication\\products\\phone\\src\\main",
+        "RESOURCES_PATH": [
+          "F:\\MultiCommunityApplication\\products\\phone\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "F:\\MultiCommunityApplication\\products\\phone\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "arkOptions": {},
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "arkOptions": {}
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-base": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "F:\\MultiCommunityApplication\\commons\\base\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "F:\\MultiCommunityApplication\\commons\\base\\src\\main",
+        "RESOURCES_PATH": [
+          "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "F:\\MultiCommunityApplication\\commons\\base\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "arkOptions": {},
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "arkOptions": {}
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-detail": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "F:\\MultiCommunityApplication\\features\\detail\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "F:\\MultiCommunityApplication\\features\\detail\\src\\main",
+        "RESOURCES_PATH": [
+          "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "arkOptions": {},
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "arkOptions": {}
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-hot": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "F:\\MultiCommunityApplication\\features\\hot\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "F:\\MultiCommunityApplication\\features\\hot\\src\\main",
+        "RESOURCES_PATH": [
+          "F:\\MultiCommunityApplication\\features\\hot\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "F:\\MultiCommunityApplication\\features\\hot\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "arkOptions": {},
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "arkOptions": {}
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-rank": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "F:\\MultiCommunityApplication\\features\\rank\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "F:\\MultiCommunityApplication\\features\\rank\\src\\main",
+        "RESOURCES_PATH": [
+          "F:\\MultiCommunityApplication\\features\\rank\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "F:\\MultiCommunityApplication\\features\\rank\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "arkOptions": {},
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "arkOptions": {}
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-picture": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "F:\\MultiCommunityApplication\\features\\picture\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "F:\\MultiCommunityApplication\\features\\picture\\src\\main",
+        "RESOURCES_PATH": [
+          "F:\\MultiCommunityApplication\\features\\picture\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "F:\\MultiCommunityApplication\\features\\picture\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "arkOptions": {},
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "arkOptions": {}
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "F:\\MultiCommunityApplication\\build",
+    "BUNDLE_NAME": "com.huawei.multicommunityapplication",
+    "VERSION_CODE": 1000000,
+    "VERSION_NAME": "1.0.0",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "F:\\MultiCommunityApplication\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "phone",
+        "srcPath": "F:\\MultiCommunityApplication\\products\\phone",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "F:\\MultiCommunityApplication"
+      },
+      {
+        "name": "base",
+        "srcPath": "F:\\MultiCommunityApplication\\commons\\base",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "F:\\MultiCommunityApplication"
+      },
+      {
+        "name": "detail",
+        "srcPath": "F:\\MultiCommunityApplication\\features\\detail",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "F:\\MultiCommunityApplication"
+      },
+      {
+        "name": "hot",
+        "srcPath": "F:\\MultiCommunityApplication\\features\\hot",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "F:\\MultiCommunityApplication"
+      },
+      {
+        "name": "rank",
+        "srcPath": "F:\\MultiCommunityApplication\\features\\rank",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "F:\\MultiCommunityApplication"
+      },
+      {
+        "name": "picture",
+        "srcPath": "F:\\MultiCommunityApplication\\features\\picture",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "F:\\MultiCommunityApplication"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.5(17)",
+            "targetSdkVersion": "6.0.2(22)",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "strictMode": {
+                "caseSensitiveCheck": true,
+                "useNormalizedOHMUrl": true
+              }
+            }
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "phone",
+          "srcPath": "./products/phone",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "base",
+          "srcPath": "./commons/base",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "detail",
+          "srcPath": "./features/detail",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hot",
+          "srcPath": "./features/hot",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rank",
+          "srcPath": "./features/rank",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "picture",
+          "srcPath": "./features/picture",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "F:\\MultiCommunityApplication"
+    ],
+    "BUILD_CACHE_DIR": ""
+  }
+}

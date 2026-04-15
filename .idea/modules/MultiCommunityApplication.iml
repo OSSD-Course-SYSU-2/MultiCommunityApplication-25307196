@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../..">
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/base/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/base/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/base/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/base/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/base/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/base/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/detail/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/detail/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/detail/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/detail/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/detail/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/detail/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/hot/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/hot/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/hot/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/hot/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/hot/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/hot/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/picture/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/picture/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/picture/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/picture/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/picture/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/picture/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/rank/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/rank/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/rank/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/rank/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/rank/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/rank/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/phone/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/phone/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/phone/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/phone/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/phone/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/phone/oh_modules" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-HarmonyOS-6.0.2(openharmony)" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/api" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/component" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/kits" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/arkts" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-HarmonyOS-6.0.2(hms)" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/hms/ets/api" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/hms/ets/kits" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

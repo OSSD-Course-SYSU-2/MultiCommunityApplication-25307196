@@ -1,0 +1,167 @@
+{
+  "lockVersion": "1.0",
+  "settings": {
+    "resolveConflict": true,
+    "resolveConflictStrict": false,
+    "installAll": true
+  },
+  "overrides": {},
+  "overrideDependencyMap": {},
+  "modules": {
+    ".": {
+      "name": "",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/base": {
+      "name": "base",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/detail": {
+      "name": "detail",
+      "dependencies": {
+        "base": {
+          "specifier": "file:commons/base",
+          "version": "file:commons/base"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/hot": {
+      "name": "hot",
+      "dependencies": {
+        "rank": {
+          "specifier": "file:features/rank",
+          "version": "file:features/rank"
+        },
+        "base": {
+          "specifier": "file:commons/base",
+          "version": "file:commons/base"
+        },
+        "detail": {
+          "specifier": "file:features/detail",
+          "version": "file:features/detail"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/picture": {
+      "name": "picture",
+      "dependencies": {
+        "base": {
+          "specifier": "file:commons/base",
+          "version": "file:commons/base"
+        },
+        "detail": {
+          "specifier": "file:features/detail",
+          "version": "file:features/detail"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/rank": {
+      "name": "rank",
+      "dependencies": {
+        "base": {
+          "specifier": "file:commons/base",
+          "version": "file:commons/base"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "products/phone": {
+      "name": "phone",
+      "dependencies": {
+        "hot": {
+          "specifier": "file:features/hot",
+          "version": "file:features/hot"
+        },
+        "base": {
+          "specifier": "file:commons/base",
+          "version": "file:commons/base"
+        },
+        "detail": {
+          "specifier": "file:features/detail",
+          "version": "file:features/detail"
+        },
+        "rank": {
+          "specifier": "file:features/rank",
+          "version": "file:features/rank"
+        },
+        "picture": {
+          "specifier": "file:features/picture",
+          "version": "file:features/picture"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    }
+  },
+  "packages": {
+    "base@file:commons/base": {
+      "storePath": "commons/base",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "rank@file:features/rank": {
+      "storePath": "features/rank",
+      "dependencies": {
+        "base": "commons/base"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "detail@file:features/detail": {
+      "storePath": "features/detail",
+      "dependencies": {
+        "base": "commons/base"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "picture@file:features/picture": {
+      "storePath": "features/picture",
+      "dependencies": {
+        "base": "commons/base",
+        "detail": "features/detail"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "hot@file:features/hot": {
+      "storePath": "features/hot",
+      "dependencies": {
+        "rank": "features/rank",
+        "base": "commons/base",
+        "detail": "features/detail"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    }
+  }
+}

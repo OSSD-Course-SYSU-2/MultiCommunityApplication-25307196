@@ -1,0 +1,164 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "placeholder",
+      "value": "搜索或输入网址"
+    },
+    {
+      "name": "read_total_rank",
+      "value": "查看完整榜单"
+    },
+    {
+      "name": "follow",
+      "value": "关注"
+    },
+    {
+      "name": "found",
+      "value": "发现"
+    },
+    {
+      "name": "read_total",
+      "value": "查看全部"
+    },
+    {
+      "name": "more",
+      "value": "更多"
+    },
+    {
+      "name": "follow_list_name_1",
+      "value": "摄影视觉"
+    },
+    {
+      "name": "follow_list_date_1",
+      "value": "2小时前·发布了动态"
+    },
+    {
+      "name": "follow_list_type_1",
+      "value": "登山"
+    },
+    {
+      "name": "follow_list_subtype_1",
+      "value": "旅游"
+    },
+    {
+      "name": "follow_list_content_1",
+      "value": "在山顶，你会觉得山再巍峨，人也能把它征服，而此时的…"
+    },
+    {
+      "name": "follow_list_name_2",
+      "value": "大自然的风采"
+    },
+    {
+      "name": "follow_list_date_2",
+      "value": "11小时前·发布了动态"
+    },
+    {
+      "name": "follow_list_name_3",
+      "value": "山水"
+    },
+    {
+      "name": "follow_list_date_3",
+      "value": "3小时前·发布了动态"
+    },
+    {
+      "name": "follow_list_name_4",
+      "value": "最科技评测"
+    },
+    {
+      "name": "follow_list_date_4",
+      "value": "刚刚"
+    },
+    {
+      "name": "follow_list_name_5",
+      "value": "故宫画家"
+    },
+    {
+      "name": "follow_list_name_6",
+      "value": "国学展览"
+    },
+    {
+      "name": "follow_list_date_6",
+      "value": "8小时前·发布了动态"
+    },
+    {
+      "name": "follow_list_name_7",
+      "value": "自然社区"
+    },
+    {
+      "name": "follow_list_name_8",
+      "value": "摄影视效"
+    },
+    {
+      "name": "follow_list_date_8",
+      "value": "13小时前·发布了动态"
+    },
+    {
+      "name": "follow_list_name_9",
+      "value": "国学探究"
+    },
+    {
+      "name": "follow_detail_name_1",
+      "value": "全部关注"
+    },
+    {
+      "name": "follow_detail_name_2",
+      "value": "大自然的风采"
+    },
+    {
+      "name": "follow_detail_name_3",
+      "value": "科技评测"
+    },
+    {
+      "name": "follow_detail_name_4",
+      "value": "风景画家"
+    },
+    {
+      "name": "follow_detail_name_5",
+      "value": "自然社区"
+    },
+    {
+      "name": "follow_detail_name_6",
+      "value": "自然社区"
+    },
+    {
+      "name": "follow_detail_content_1",
+      "value": "摄影/10粉丝"
+    },
+    {
+      "name": "follow_detail_content_2",
+      "value": "摄影/5万粉丝"
+    },
+    {
+      "name": "follow_detail_content_3",
+      "value": "20万粉丝"
+    },
+    {
+      "name": "follow_detail_content_4",
+      "value": "快速评测"
+    },
+    {
+      "name": "follow_detail_content_5",
+      "value": "爱山爱水"
+    },
+    {
+      "name": "follow_detail_content_6",
+      "value": "国学认证"
+    },
+    {
+      "name": "follow_detail_content_7",
+      "value": "3万粉丝"
+    },
+    {
+      "name": "follow_detail_content_8",
+      "value": "2小时前发布了..."
+    },
+    {
+      "name": "follow_title_content",
+      "value": "的动态"
+    }
+  ]
+}
