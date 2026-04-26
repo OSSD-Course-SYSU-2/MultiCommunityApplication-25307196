@@ -26,3 +26,15 @@ export { default as CardArrayViewModel, CardArray } from './src/main/ets/viewmod
 export { CardItem } from './src/main/ets/viewmodel/CardViewModel';
 
 export { CommentInputView } from './src/main/ets/view/CommentInputView';
+
+export { CommentInputWithAIView } from './src/main/ets/view/CommentInputWithAIView';
+
+export { AIPolishPanelView } from './src/main/ets/view/AIPolishPanelView';
+
+export { AIPolishResultView } from './src/main/ets/view/AIPolishResultView';
+
+export { AIPolishStyleView } from './src/main/ets/view/AIPolishStyleView';
+
+export { AIQualityAnalysisView } from './src/main/ets/view/AIQualityAnalysisView';
+
+export { AIPolishService } from './src/main/ets/service/AIPolishService';

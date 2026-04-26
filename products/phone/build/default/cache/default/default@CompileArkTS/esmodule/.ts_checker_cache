@@ -160,7 +160,7 @@
       "error": false
     },
     "F:\\MultiCommunityApplication\\commons\\base\\Index.ets": {
-      "mtimeMs": 1776159154280.7673,
+      "mtimeMs": 1776783548450.0498,
       "children": [
         "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\constants\\BreakpointConstants.ets",
         "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\constants\\BreakpointType.ets",
@@ -171,7 +171,8 @@
         "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\model\\HotModel.ets",
         "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\utils\\Logger.ets",
         "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\model\\CardListModel.ets",
-        "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\model\\PictureArrayModel.ets"
+        "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\model\\PictureArrayModel.ets",
+        "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\model\\AICommentModel.ets"
       ],
       "parent": [
         "F:\\MultiCommunityApplication\\products\\phone\\src\\main\\ets\\entryability\\EntryAbility.ets",
@@ -187,6 +188,12 @@
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentQualityView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentBarView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\viewmodel\\CardArrayViewModel.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputWithAIView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishPanelView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\service\\AIPolishService.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishStyleView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishResultView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIQualityAnalysisView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputView.ets",
         "F:\\MultiCommunityApplication\\features\\rank\\src\\main\\ets\\view\\HotListItemView.ets",
         "F:\\MultiCommunityApplication\\features\\rank\\src\\main\\ets\\view\\HotRankPage.ets",
@@ -1657,8 +1664,16 @@
       ],
       "error": false
     },
+    "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\model\\AICommentModel.ets": {
+      "mtimeMs": 1776783276801.5999,
+      "children": [],
+      "parent": [
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets"
+      ],
+      "error": false
+    },
     "F:\\MultiCommunityApplication\\features\\detail\\Index.ets": {
-      "mtimeMs": 1774267850000,
+      "mtimeMs": 1776784353895.8938,
       "children": [
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\DetailPage.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentBarView.ets",
@@ -1666,7 +1681,13 @@
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentListView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\viewmodel\\CardArrayViewModel.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\viewmodel\\CardViewModel.ets",
-        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputView.ets"
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputWithAIView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishPanelView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishResultView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishStyleView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIQualityAnalysisView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\service\\AIPolishService.ets"
       ],
       "parent": [
         "F:\\MultiCommunityApplication\\products\\phone\\src\\main\\ets\\pages\\MainPage.ets",
@@ -1724,14 +1745,14 @@
       "error": false
     },
     "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\DetailPage.ets": {
-      "mtimeMs": 1774267850000,
+      "mtimeMs": 1776784035409.2979,
       "children": [
         "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\DetailTitleView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\MircoBlogView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentListView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentBarView.ets",
-        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputWithAIView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\viewmodel\\CardArrayViewModel.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\viewmodel\\CardViewModel.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\viewmodel\\CardArrayViewModel.ets"
@@ -1817,8 +1838,83 @@
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\constants\\CommonConstants.ets"
       ],
       "parent": [
+        "F:\\MultiCommunityApplication\\features\\detail\\Index.ets"
+      ],
+      "error": false
+    },
+    "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputWithAIView.ets": {
+      "mtimeMs": 1776783862617.146,
+      "children": [
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\constants\\CommonConstants.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishPanelView.ets"
+      ],
+      "parent": [
         "F:\\MultiCommunityApplication\\features\\detail\\Index.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\DetailPage.ets"
+      ],
+      "error": false
+    },
+    "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishPanelView.ets": {
+      "mtimeMs": 1776784164562.4497,
+      "children": [
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\service\\AIPolishService.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishStyleView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishResultView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIQualityAnalysisView.ets"
+      ],
+      "parent": [
+        "F:\\MultiCommunityApplication\\features\\detail\\Index.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputWithAIView.ets"
+      ],
+      "error": false
+    },
+    "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishResultView.ets": {
+      "mtimeMs": 1776784172131.9397,
+      "children": [
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets"
+      ],
+      "parent": [
+        "F:\\MultiCommunityApplication\\features\\detail\\Index.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishPanelView.ets"
+      ],
+      "error": false
+    },
+    "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishStyleView.ets": {
+      "mtimeMs": 1776784183658.9194,
+      "children": [
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets"
+      ],
+      "parent": [
+        "F:\\MultiCommunityApplication\\features\\detail\\Index.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishPanelView.ets"
+      ],
+      "error": false
+    },
+    "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIQualityAnalysisView.ets": {
+      "mtimeMs": 1776784190713.344,
+      "children": [
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets"
+      ],
+      "parent": [
+        "F:\\MultiCommunityApplication\\features\\detail\\Index.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishPanelView.ets"
+      ],
+      "error": false
+    },
+    "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\service\\AIPolishService.ets": {
+      "mtimeMs": 1776764752002.1084,
+      "children": [
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets"
+      ],
+      "parent": [
+        "F:\\MultiCommunityApplication\\features\\detail\\Index.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\AIPolishPanelView.ets"
       ],
       "error": false
     },
@@ -1841,6 +1937,7 @@
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentListView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentItemView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentBarView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputWithAIView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputView.ets"
       ],
       "error": false
@@ -1935,7 +2032,7 @@
       "error": false
     },
     "F:\\MultiCommunityApplication\\features\\picture\\src\\main\\ets\\view\\PictureDetail.ets": {
-      "mtimeMs": 1774267850000,
+      "mtimeMs": 1776784578423.3457,
       "children": [
         "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\Index.ets",

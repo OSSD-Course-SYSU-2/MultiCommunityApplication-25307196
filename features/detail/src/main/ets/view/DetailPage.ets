@@ -18,7 +18,7 @@ import { DetailTitleView } from './DetailTitleView';
 import { MicroBlogView } from './MircoBlogView';
 import { CommentListView } from './CommentListView';
 import { CommentBarView } from './CommentBarView';
-import { CommentInputView } from './CommentInputView';
+import { CommentInputWithAIView } from './CommentInputWithAIView';
 import { CardArray } from '../viewmodel/CardArrayViewModel';
 import { CardItem } from '../viewmodel/CardViewModel';
 import CardArrayViewModel from '../viewmodel/CardArrayViewModel';
@@ -170,7 +170,7 @@ export struct DetailPage {
               focusControl.requestFocus(KEY_BACKGROUND);
             })
 
-          CommentInputView()
+          CommentInputWithAIView()
         }
         .alignContent(Alignment.Bottom)
       }

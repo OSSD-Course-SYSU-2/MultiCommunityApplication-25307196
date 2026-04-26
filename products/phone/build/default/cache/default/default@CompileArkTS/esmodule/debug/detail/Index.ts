@@ -5,3 +5,9 @@ export { CommentListView } from "@normalized:N&&&detail/src/main/ets/view/Commen
 export { default as CardArrayViewModel, CardArray } from "@normalized:N&&&detail/src/main/ets/viewmodel/CardArrayViewModel&1.0.0";
 export { CardItem } from "@normalized:N&&&detail/src/main/ets/viewmodel/CardViewModel&1.0.0";
 export { CommentInputView } from "@normalized:N&&&detail/src/main/ets/view/CommentInputView&1.0.0";
+export { CommentInputWithAIView } from "@normalized:N&&&detail/src/main/ets/view/CommentInputWithAIView&1.0.0";
+export { AIPolishPanelView } from "@normalized:N&&&detail/src/main/ets/view/AIPolishPanelView&1.0.0";
+export { AIPolishResultView } from "@normalized:N&&&detail/src/main/ets/view/AIPolishResultView&1.0.0";
+export { AIPolishStyleView } from "@normalized:N&&&detail/src/main/ets/view/AIPolishStyleView&1.0.0";
+export { AIQualityAnalysisView } from "@normalized:N&&&detail/src/main/ets/view/AIQualityAnalysisView&1.0.0";
+export { AIPolishService } from "@normalized:N&&&detail/src/main/ets/service/AIPolishService&1.0.0";

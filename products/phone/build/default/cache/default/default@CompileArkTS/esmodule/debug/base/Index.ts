@@ -10,3 +10,5 @@ export { default as Logger } from "@normalized:N&&&base/src/main/ets/utils/Logge
 export { CARD_LIST } from "@normalized:N&&&base/src/main/ets/model/CardListModel&1.0.0";
 export type { CardItemInterface } from "@normalized:N&&&base/src/main/ets/model/CardListModel&1.0.0";
 export { PICTURE_ARRAY_LIST } from "@normalized:N&&&base/src/main/ets/model/PictureArrayModel&1.0.0";
+export { PolishStyle, SentimentLabel, IssueType, IssueSeverity, ReadabilityLevel, POLISH_STYLE_CONFIGS, DEFAULT_POLISH_OPTIONS } from "@normalized:N&&&base/src/main/ets/model/AICommentModel&1.0.0";
+export type { PolishStyleConfig, PolishResult, SentimentInfo, QualityAnalysisResult, QualityIssue, TextPosition, SimilarComment, ReadabilityInfo, PolishHistory, AIPolishRequest, PolishOptions, AIPolishResponse, AIError } from "@normalized:N&&&base/src/main/ets/model/AICommentModel&1.0.0";

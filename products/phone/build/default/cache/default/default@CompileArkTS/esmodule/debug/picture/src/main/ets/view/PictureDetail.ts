@@ -13,7 +13,7 @@ interface PictureDetail_Params {
     index?: number;
 }
 import { BreakpointConstants as Breakpoint, CommonConstants as BaseCommon, BreakpointType } from "@normalized:N&&&base/Index&1.0.0";
-import { CardArrayViewModel, CommentInputView } from "@normalized:N&&&detail/Index&1.0.0";
+import { CardArrayViewModel, CommentInputWithAIView } from "@normalized:N&&&detail/Index&1.0.0";
 import type { CardArray } from "@normalized:N&&&detail/Index&1.0.0";
 import { DetailVertical } from "@normalized:N&&&picture/src/main/ets/view/DetailVerticalView&1.0.0";
 const KEY_BACKGROUND: string = 'background';
@@ -353,7 +353,7 @@ export class PictureDetail extends ViewPU {
                     {
                         this.observeComponentCreation2((elmtId, isInitialRender) => {
                             if (isInitialRender) {
-                                let componentCall = new CommentInputView(this, {}, undefined, elmtId, () => { }, { page: "features/picture/src/main/ets/view/PictureDetail.ets", line: 184, col: 11 });
+                                let componentCall = new CommentInputWithAIView(this, {}, undefined, elmtId, () => { }, { page: "features/picture/src/main/ets/view/PictureDetail.ets", line: 184, col: 11 });
                                 ViewPU.create(componentCall);
                                 let paramsLambda = () => {
                                     return {};
@@ -363,7 +363,7 @@ export class PictureDetail extends ViewPU {
                             else {
                                 this.updateStateVarsOfChildByElmtId(elmtId, {});
                             }
-                        }, { name: "CommentInputView" });
+                        }, { name: "CommentInputWithAIView" });
                     }
                     Stack.pop();
                 });

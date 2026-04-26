@@ -32,3 +32,26 @@ export { default as Logger } from './src/main/ets/utils/Logger';
 export { CardItemInterface, CARD_LIST } from './src/main/ets/model/CardListModel';
 
 export { PICTURE_ARRAY_LIST } from './src/main/ets/model/PictureArrayModel';
+
+export {
+  PolishStyle,
+  PolishStyleConfig,
+  PolishResult,
+  SentimentInfo,
+  SentimentLabel,
+  QualityAnalysisResult,
+  QualityIssue,
+  IssueType,
+  IssueSeverity,
+  TextPosition,
+  SimilarComment,
+  ReadabilityInfo,
+  ReadabilityLevel,
+  PolishHistory,
+  AIPolishRequest,
+  PolishOptions,
+  AIPolishResponse,
+  AIError,
+  POLISH_STYLE_CONFIGS,
+  DEFAULT_POLISH_OPTIONS
+} from './src/main/ets/model/AICommentModel';

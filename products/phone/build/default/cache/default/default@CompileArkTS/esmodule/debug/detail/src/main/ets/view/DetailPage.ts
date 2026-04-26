@@ -16,7 +16,7 @@ import { DetailTitleView } from "@normalized:N&&&detail/src/main/ets/view/Detail
 import { MicroBlogView } from "@normalized:N&&&detail/src/main/ets/view/MircoBlogView&1.0.0";
 import { CommentListView } from "@normalized:N&&&detail/src/main/ets/view/CommentListView&1.0.0";
 import { CommentBarView } from "@normalized:N&&&detail/src/main/ets/view/CommentBarView&1.0.0";
-import { CommentInputView } from "@normalized:N&&&detail/src/main/ets/view/CommentInputView&1.0.0";
+import { CommentInputWithAIView } from "@normalized:N&&&detail/src/main/ets/view/CommentInputWithAIView&1.0.0";
 import type { CardArray } from "@normalized:N&&&detail/src/main/ets/viewmodel/CardArrayViewModel&1.0.0";
 import type { CardItem } from '../viewmodel/CardViewModel';
 import CardArrayViewModel from "@normalized:N&&&detail/src/main/ets/viewmodel/CardArrayViewModel&1.0.0";
@@ -402,7 +402,7 @@ export class DetailPage extends ViewPU {
                     {
                         this.observeComponentCreation2((elmtId, isInitialRender) => {
                             if (isInitialRender) {
-                                let componentCall = new CommentInputView(this, {}, undefined, elmtId, () => { }, { page: "features/detail/src/main/ets/view/DetailPage.ets", line: 173, col: 11 });
+                                let componentCall = new CommentInputWithAIView(this, {}, undefined, elmtId, () => { }, { page: "features/detail/src/main/ets/view/DetailPage.ets", line: 173, col: 11 });
                                 ViewPU.create(componentCall);
                                 let paramsLambda = () => {
                                     return {};
@@ -412,7 +412,7 @@ export class DetailPage extends ViewPU {
                             else {
                                 this.updateStateVarsOfChildByElmtId(elmtId, {});
                             }
-                        }, { name: "CommentInputView" });
+                        }, { name: "CommentInputWithAIView" });
                     }
                     Stack.pop();
                 });

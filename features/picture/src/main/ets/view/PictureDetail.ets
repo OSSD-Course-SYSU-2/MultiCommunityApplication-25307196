@@ -14,7 +14,7 @@
  */
 
 import { BreakpointConstants as Breakpoint, CommonConstants as BaseCommon, BreakpointType } from 'base/';
-import { CardArrayViewModel, CardArray, CommentInputView } from 'detail/';
+import { CardArrayViewModel, CardArray, CommentInputWithAIView } from 'detail/';
 import { DetailVertical } from './DetailVerticalView';
 
 const KEY_BACKGROUND: string = 'background';
@@ -181,7 +181,7 @@ export struct PictureDetail {
               focusControl.requestFocus(KEY_BACKGROUND);
             })
 
-          CommentInputView()
+          CommentInputWithAIView()
         }
         .alignContent(Alignment.Bottom)
       }
