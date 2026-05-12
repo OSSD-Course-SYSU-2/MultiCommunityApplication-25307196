@@ -19918,3 +19918,361 @@ Require stack:
 [2026-04-21T23:23:23.411] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-04-21T23:23:23.412] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-04-21T23:23:23.429] [DEBUG] debug-file - worker[10] exits with exit code 1.
+[2026-05-12T16:55:19.350] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-05-12T16:55:26.168] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-05-12T16:56:28.682] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-05-12T16:56:28.691] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T16:56:29.412] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-05-12T16:56:29.407] [DEBUG] debug-file - App plugin register hook start...
+[2026-05-12T16:56:29.422] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-05-12T16:56:29.453] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-05-12T16:56:29.690] [DEBUG] debug-file - Project task initialization takes 39 ms 
+[2026-05-12T16:56:29.756] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\aaa\MultiCommunityApplication\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- F:\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-05-12T16:56:29.818] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=phone, buildMode=debug
+[2026-05-12T16:56:29.846] [DEBUG] debug-file - hvigorfile, resolving F:\aaa\MultiCommunityApplication\commons\base\hvigorfile.ts
+[2026-05-12T16:56:30.277] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-05-12T16:56:30.346] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T16:55:19.354] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '6.0.0', dependencies: {} }
+[2026-05-12T16:55:26.235] [DEBUG] debug-file - Cache service initialization finished in 66 ms 
+[2026-05-12T16:56:30.719] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-05-12T16:56:28.683] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-05-12T16:56:28.691] [DEBUG] debug-file - App plugin prepare start...
+[2026-05-12T16:56:29.412] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-05-12T16:56:29.407] [DEBUG] debug-file - App plugin register hook end...
+[2026-05-12T16:56:29.430] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-05-12T16:56:29.644] [DEBUG] debug-file - Sdk init in 213 ms 
+[2026-05-12T16:56:29.690] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T16:56:29.818] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:29.882] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: harTasks], plugins: [] } }
+[2026-05-12T16:56:30.429] [DEBUG] debug-file - Module phone Collected Dependency: F:\aaa\MultiCommunityApplication\features\hot,F:\aaa\MultiCommunityApplication\commons\base,F:\aaa\MultiCommunityApplication\features\detail,F:\aaa\MultiCommunityApplication\features\rank,F:\aaa\MultiCommunityApplication\features\picture
+[2026-05-12T16:55:19.360] [DEBUG] debug-file - env: daemon=false
+[2026-05-12T16:56:30.316] [DEBUG] debug-file - load to the disk finished
+[2026-05-12T16:55:26.240] [DEBUG] debug-file - hvigorfile, resolving F:\aaa\MultiCommunityApplication\hvigorfile.ts
+[2026-05-12T16:56:30.734] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-05-12T16:56:28.692] [DEBUG] debug-file - App plugin prepare end...
+[2026-05-12T16:56:29.414] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-05-12T16:56:29.408] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T16:56:29.434] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-05-12T16:56:29.691] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\aaa\MultiCommunityApplication\hvigorfile.ts
+[2026-05-12T16:56:29.820] [DEBUG] debug-file - Module 'phone' target 'default' build option initialized
+[2026-05-12T16:56:29.882] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: harTasks]
+[2026-05-12T16:56:30.429] [DEBUG] debug-file - Module phone's total dependency: 5
+[2026-05-12T16:55:19.361] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-05-12T16:56:30.326] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T16:56:30.746] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-05-12T16:56:28.692] [DEBUG] debug-file - App plugin creating...
+[2026-05-12T16:56:29.414] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-05-12T16:56:29.442] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-05-12T16:56:29.691] [DEBUG] debug-file - hvigorfile, resolve finished F:\aaa\MultiCommunityApplication\hvigorfile.ts
+[2026-05-12T16:56:29.821] [DEBUG] debug-file - End initialize module-target build option map, moduleName=phone
+[2026-05-12T16:56:29.883] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T16:56:30.471] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T16:56:30.339] [DEBUG] debug-file - Module MultiCommunityApplication Collected Dependency: 
+[2026-05-12T16:56:30.749] [DEBUG] debug-file - Clear worker 0.
+[2026-05-12T16:56:29.694] [DEBUG] debug-file - hvigorfile, resolving F:\aaa\MultiCommunityApplication\products\phone\hvigorfile.ts
+[2026-05-12T16:56:29.821] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=phone, buildMode=release
+[2026-05-12T16:56:29.884] [DEBUG] debug-file - Har plugin creating...
+[2026-05-12T16:56:30.475] [DEBUG] debug-file - Module base Collected Dependency: 
+[2026-05-12T16:56:30.750] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-05-12T16:56:30.340] [DEBUG] debug-file - Module MultiCommunityApplication's total dependency: 0
+[2026-05-12T16:56:29.739] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2026-05-12T16:56:29.821] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:29.886] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\aaa\MultiCommunityApplication\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- F:\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-05-12T16:56:30.475] [DEBUG] debug-file - Module base's total dependency: 0
+[2026-05-12T16:56:30.751] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-05-12T16:56:29.822] [DEBUG] debug-file - Module 'phone' target 'default' build option initialized
+[2026-05-12T16:56:29.739] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2026-05-12T16:56:30.483] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T16:56:30.118] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=base, buildMode=debug
+[2026-05-12T16:56:30.751] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-05-12T16:56:29.822] [DEBUG] debug-file - End initialize module-target build option map, moduleName=phone
+[2026-05-12T16:56:29.740] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T16:56:30.751] [DEBUG] debug-file - Clear worker 1.
+[2026-05-12T16:56:30.118] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.491] [DEBUG] debug-file - Module detail Collected Dependency: F:\aaa\MultiCommunityApplication\commons\base
+[2026-05-12T16:56:29.744] [DEBUG] debug-file - Hap plugin creating...
+[2026-05-12T16:56:29.823] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=phone, buildMode=debug
+[2026-05-12T16:56:30.751] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-05-12T16:56:30.118] [DEBUG] debug-file - Module 'base' target 'default' build option initialized
+[2026-05-12T16:56:30.492] [DEBUG] debug-file - Module detail's total dependency: 1
+[2026-05-12T16:56:29.823] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.751] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-05-12T16:56:30.119] [DEBUG] debug-file - End initialize module-target build option map, moduleName=base
+[2026-05-12T16:56:30.497] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T16:56:29.823] [DEBUG] debug-file - Module 'phone' target 'default' build option initialized
+[2026-05-12T16:56:30.119] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=base, buildMode=release
+[2026-05-12T16:56:30.751] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-05-12T16:56:30.510] [DEBUG] debug-file - Module hot Collected Dependency: F:\aaa\MultiCommunityApplication\features\rank,F:\aaa\MultiCommunityApplication\commons\base,F:\aaa\MultiCommunityApplication\features\detail
+[2026-05-12T16:56:29.823] [DEBUG] debug-file - End initialize module-target build option map, moduleName=phone
+[2026-05-12T16:56:30.119] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.754] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-05-12T16:56:30.511] [DEBUG] debug-file - Module hot's total dependency: 3
+[2026-05-12T16:56:29.824] [DEBUG] debug-file - Obtain build option for module 'phone' target 'default'in this build.
+[2026-05-12T16:56:30.120] [DEBUG] debug-file - Module 'base' target 'default' build option initialized
+[2026-05-12T16:56:30.775] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-05-12T16:56:29.841] [DEBUG] debug-file - Module phone task initialization takes 15 ms 
+[2026-05-12T16:56:30.120] [DEBUG] debug-file - End initialize module-target build option map, moduleName=base
+[2026-05-12T16:56:30.522] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T16:56:30.776] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-05-12T16:56:29.841] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-05-12T16:56:30.120] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=base, buildMode=debug
+[2026-05-12T16:56:30.534] [DEBUG] debug-file - Module rank Collected Dependency: F:\aaa\MultiCommunityApplication\commons\base
+[2026-05-12T16:56:30.778] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-05-12T16:56:29.841] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-05-12T16:56:30.120] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.534] [DEBUG] debug-file - Module rank's total dependency: 1
+[2026-05-12T16:56:29.841] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T16:56:30.120] [DEBUG] debug-file - Module 'base' target 'default' build option initialized
+[2026-05-12T16:56:30.541] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T16:56:29.841] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T16:56:30.120] [DEBUG] debug-file - End initialize module-target build option map, moduleName=base
+[2026-05-12T16:56:30.554] [DEBUG] debug-file - Module picture Collected Dependency: F:\aaa\MultiCommunityApplication\commons\base,F:\aaa\MultiCommunityApplication\features\detail
+[2026-05-12T16:56:29.841] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\aaa\MultiCommunityApplication\products\phone\hvigorfile.ts
+[2026-05-12T16:56:30.120] [DEBUG] debug-file - Obtain build option for module 'base' target 'default'in this build.
+[2026-05-12T16:56:30.554] [DEBUG] debug-file - Module picture's total dependency: 2
+[2026-05-12T16:56:29.841] [DEBUG] debug-file - hvigorfile, resolve finished F:\aaa\MultiCommunityApplication\products\phone\hvigorfile.ts
+[2026-05-12T16:56:30.126] [DEBUG] debug-file - Module base task initialization takes 4 ms 
+[2026-05-12T16:56:30.571] [DEBUG] debug-file - Configuration phase cost:1 min 4 s 322 ms 
+[2026-05-12T16:56:30.126] [DEBUG] debug-file - Har plugin register hook start...
+[2026-05-12T16:56:30.593] [DEBUG] debug-file - Configuration task cost before running: 1 min 4 s 457 ms 
+[2026-05-12T16:56:30.126] [DEBUG] debug-file - Har plugin register hook end...
+[2026-05-12T16:56:30.596] [DEBUG] debug-file - Executing task :phone:init
+[2026-05-12T16:56:30.126] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T16:56:30.597] [DEBUG] debug-file - phone : init cost memory 0.03662872314453125
+[2026-05-12T16:56:30.126] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T16:56:30.598] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 min 4 s 462 ms 
+[2026-05-12T16:56:30.126] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\aaa\MultiCommunityApplication\commons\base\hvigorfile.ts
+[2026-05-12T16:56:30.602] [INFO] debug-file - Finished :phone:init... after 3 ms 
+[2026-05-12T16:56:30.603] [DEBUG] debug-file - Executing task :base:init
+[2026-05-12T16:56:30.126] [DEBUG] debug-file - hvigorfile, resolve finished F:\aaa\MultiCommunityApplication\commons\base\hvigorfile.ts
+[2026-05-12T16:56:30.604] [DEBUG] debug-file - base : init cost memory 0.0104827880859375
+[2026-05-12T16:56:30.127] [DEBUG] debug-file - hvigorfile, resolving F:\aaa\MultiCommunityApplication\features\detail\hvigorfile.ts
+[2026-05-12T16:56:30.604] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 min 4 s 468 ms 
+[2026-05-12T16:56:30.140] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: harTasks], plugins: [] } }
+[2026-05-12T16:56:30.605] [INFO] debug-file - Finished :base:init... after 1 ms 
+[2026-05-12T16:56:30.141] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: harTasks]
+[2026-05-12T16:56:30.606] [DEBUG] debug-file - Executing task :detail:init
+[2026-05-12T16:56:30.141] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T16:56:30.141] [DEBUG] debug-file - Har plugin creating...
+[2026-05-12T16:56:30.607] [DEBUG] debug-file - detail : init cost memory 0.0104827880859375
+[2026-05-12T16:56:30.143] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\aaa\MultiCommunityApplication\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- F:\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-05-12T16:56:30.607] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 min 4 s 470 ms 
+[2026-05-12T16:56:30.147] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=detail, buildMode=debug
+[2026-05-12T16:56:30.608] [INFO] debug-file - Finished :detail:init... after 1 ms 
+[2026-05-12T16:56:30.148] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.609] [DEBUG] debug-file - Executing task :hot:init
+[2026-05-12T16:56:30.148] [DEBUG] debug-file - Module 'detail' target 'default' build option initialized
+[2026-05-12T16:56:30.609] [DEBUG] debug-file - hot : init cost memory 0.01055145263671875
+[2026-05-12T16:56:30.148] [DEBUG] debug-file - End initialize module-target build option map, moduleName=detail
+[2026-05-12T16:56:30.610] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 min 4 s 473 ms 
+[2026-05-12T16:56:30.148] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=detail, buildMode=release
+[2026-05-12T16:56:30.611] [INFO] debug-file - Finished :hot:init... after 1 ms 
+[2026-05-12T16:56:30.148] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.612] [DEBUG] debug-file - Executing task :rank:init
+[2026-05-12T16:56:30.148] [DEBUG] debug-file - Module 'detail' target 'default' build option initialized
+[2026-05-12T16:56:30.613] [DEBUG] debug-file - rank : init cost memory 0.01055145263671875
+[2026-05-12T16:56:30.148] [DEBUG] debug-file - End initialize module-target build option map, moduleName=detail
+[2026-05-12T16:56:30.149] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=detail, buildMode=debug
+[2026-05-12T16:56:30.613] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 min 4 s 476 ms 
+[2026-05-12T16:56:30.149] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.613] [INFO] debug-file - Finished :rank:init... after 1 ms 
+[2026-05-12T16:56:30.149] [DEBUG] debug-file - Module 'detail' target 'default' build option initialized
+[2026-05-12T16:56:30.614] [DEBUG] debug-file - Executing task :picture:init
+[2026-05-12T16:56:30.149] [DEBUG] debug-file - End initialize module-target build option map, moduleName=detail
+[2026-05-12T16:56:30.614] [DEBUG] debug-file - picture : init cost memory 0.010650634765625
+[2026-05-12T16:56:30.149] [DEBUG] debug-file - Obtain build option for module 'detail' target 'default'in this build.
+[2026-05-12T16:56:30.614] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 min 4 s 478 ms 
+[2026-05-12T16:56:30.151] [DEBUG] debug-file - Module detail task initialization takes 1 ms 
+[2026-05-12T16:56:30.615] [INFO] debug-file - Finished :picture:init... after 1 ms 
+[2026-05-12T16:56:30.616] [DEBUG] debug-file - Executing task ::init
+[2026-05-12T16:56:30.151] [DEBUG] debug-file - Har plugin register hook start...
+[2026-05-12T16:56:30.616] [DEBUG] debug-file - MultiCommunityApplication : init cost memory 0.0123291015625
+[2026-05-12T16:56:30.151] [DEBUG] debug-file - Har plugin register hook end...
+[2026-05-12T16:56:30.617] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 min 4 s 480 ms 
+[2026-05-12T16:56:30.151] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T16:56:30.618] [INFO] debug-file - Finished ::init... after 2 ms 
+[2026-05-12T16:56:30.151] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T16:56:30.649] [DEBUG] debug-file - Obtain build option for module 'phone' target 'default'in this build.
+[2026-05-12T16:56:30.151] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\aaa\MultiCommunityApplication\features\detail\hvigorfile.ts
+[2026-05-12T16:56:30.651] [DEBUG] debug-file - Obtain build option for module 'base' target 'default'in this build.
+[2026-05-12T16:56:30.151] [DEBUG] debug-file - hvigorfile, resolve finished F:\aaa\MultiCommunityApplication\features\detail\hvigorfile.ts
+[2026-05-12T16:56:30.653] [DEBUG] debug-file - Obtain build option for module 'detail' target 'default'in this build.
+[2026-05-12T16:56:30.152] [DEBUG] debug-file - hvigorfile, resolving F:\aaa\MultiCommunityApplication\features\hot\hvigorfile.ts
+[2026-05-12T16:56:30.654] [DEBUG] debug-file - Obtain build option for module 'hot' target 'default'in this build.
+[2026-05-12T16:56:30.163] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: harTasks], plugins: [] } }
+[2026-05-12T16:56:30.655] [DEBUG] debug-file - Obtain build option for module 'rank' target 'default'in this build.
+[2026-05-12T16:56:30.164] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: harTasks]
+[2026-05-12T16:56:30.656] [DEBUG] debug-file - Obtain build option for module 'picture' target 'default'in this build.
+[2026-05-12T16:56:30.164] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T16:56:30.710] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-05-12T16:56:30.164] [DEBUG] debug-file - Har plugin creating...
+[2026-05-12T16:56:30.711] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-05-12T16:56:30.165] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\aaa\MultiCommunityApplication\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- F:\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-05-12T16:56:30.167] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=hot, buildMode=debug
+[2026-05-12T16:56:30.167] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.168] [DEBUG] debug-file - Module 'hot' target 'default' build option initialized
+[2026-05-12T16:56:30.168] [DEBUG] debug-file - End initialize module-target build option map, moduleName=hot
+[2026-05-12T16:56:30.168] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=hot, buildMode=release
+[2026-05-12T16:56:30.169] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.169] [DEBUG] debug-file - Module 'hot' target 'default' build option initialized
+[2026-05-12T16:56:30.169] [DEBUG] debug-file - End initialize module-target build option map, moduleName=hot
+[2026-05-12T16:56:30.170] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=hot, buildMode=debug
+[2026-05-12T16:56:30.170] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.170] [DEBUG] debug-file - Module 'hot' target 'default' build option initialized
+[2026-05-12T16:56:30.171] [DEBUG] debug-file - End initialize module-target build option map, moduleName=hot
+[2026-05-12T16:56:30.171] [DEBUG] debug-file - Obtain build option for module 'hot' target 'default'in this build.
+[2026-05-12T16:56:30.173] [DEBUG] debug-file - Module hot task initialization takes 2 ms 
+[2026-05-12T16:56:30.173] [DEBUG] debug-file - Har plugin register hook start...
+[2026-05-12T16:56:30.173] [DEBUG] debug-file - Har plugin register hook end...
+[2026-05-12T16:56:30.173] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T16:56:30.174] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T16:56:30.174] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\aaa\MultiCommunityApplication\features\hot\hvigorfile.ts
+[2026-05-12T16:56:30.174] [DEBUG] debug-file - hvigorfile, resolve finished F:\aaa\MultiCommunityApplication\features\hot\hvigorfile.ts
+[2026-05-12T16:56:30.174] [DEBUG] debug-file - hvigorfile, resolving F:\aaa\MultiCommunityApplication\features\rank\hvigorfile.ts
+[2026-05-12T16:56:30.184] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: harTasks], plugins: [] } }
+[2026-05-12T16:56:30.184] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: harTasks]
+[2026-05-12T16:56:30.184] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T16:56:30.184] [DEBUG] debug-file - Har plugin creating...
+[2026-05-12T16:56:30.186] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\aaa\MultiCommunityApplication\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- F:\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-05-12T16:56:30.190] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=rank, buildMode=debug
+[2026-05-12T16:56:30.190] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.191] [DEBUG] debug-file - Module 'rank' target 'default' build option initialized
+[2026-05-12T16:56:30.191] [DEBUG] debug-file - End initialize module-target build option map, moduleName=rank
+[2026-05-12T16:56:30.191] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=rank, buildMode=release
+[2026-05-12T16:56:30.191] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.193] [DEBUG] debug-file - Module 'rank' target 'default' build option initialized
+[2026-05-12T16:56:30.193] [DEBUG] debug-file - End initialize module-target build option map, moduleName=rank
+[2026-05-12T16:56:30.194] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=rank, buildMode=debug
+[2026-05-12T16:56:30.194] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.195] [DEBUG] debug-file - Module 'rank' target 'default' build option initialized
+[2026-05-12T16:56:30.196] [DEBUG] debug-file - End initialize module-target build option map, moduleName=rank
+[2026-05-12T16:56:30.196] [DEBUG] debug-file - Obtain build option for module 'rank' target 'default'in this build.
+[2026-05-12T16:56:30.203] [DEBUG] debug-file - Module rank task initialization takes 4 ms 
+[2026-05-12T16:56:30.204] [DEBUG] debug-file - Har plugin register hook start...
+[2026-05-12T16:56:30.204] [DEBUG] debug-file - Har plugin register hook end...
+[2026-05-12T16:56:30.204] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T16:56:30.204] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T16:56:30.204] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\aaa\MultiCommunityApplication\features\rank\hvigorfile.ts
+[2026-05-12T16:56:30.204] [DEBUG] debug-file - hvigorfile, resolve finished F:\aaa\MultiCommunityApplication\features\rank\hvigorfile.ts
+[2026-05-12T16:56:30.205] [DEBUG] debug-file - hvigorfile, resolving F:\aaa\MultiCommunityApplication\features\picture\hvigorfile.ts
+[2026-05-12T16:56:30.225] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: harTasks], plugins: [] } }
+[2026-05-12T16:56:30.225] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: harTasks]
+[2026-05-12T16:56:30.225] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T16:56:30.225] [DEBUG] debug-file - Har plugin creating...
+[2026-05-12T16:56:30.228] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\aaa\MultiCommunityApplication\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- F:\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-05-12T16:56:30.235] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=picture, buildMode=debug
+[2026-05-12T16:56:30.235] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.236] [DEBUG] debug-file - Module 'picture' target 'default' build option initialized
+[2026-05-12T16:56:30.236] [DEBUG] debug-file - End initialize module-target build option map, moduleName=picture
+[2026-05-12T16:56:30.237] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=picture, buildMode=release
+[2026-05-12T16:56:30.237] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.238] [DEBUG] debug-file - Module 'picture' target 'default' build option initialized
+[2026-05-12T16:56:30.238] [DEBUG] debug-file - End initialize module-target build option map, moduleName=picture
+[2026-05-12T16:56:30.238] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=picture, buildMode=debug
+[2026-05-12T16:56:30.238] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T16:56:30.239] [DEBUG] debug-file - Module 'picture' target 'default' build option initialized
+[2026-05-12T16:56:30.239] [DEBUG] debug-file - End initialize module-target build option map, moduleName=picture
+[2026-05-12T16:56:30.239] [DEBUG] debug-file - Obtain build option for module 'picture' target 'default'in this build.
+[2026-05-12T16:56:30.249] [DEBUG] debug-file - Module picture task initialization takes 7 ms 
+[2026-05-12T16:56:30.249] [DEBUG] debug-file - Har plugin register hook start...
+[2026-05-12T16:56:30.249] [DEBUG] debug-file - Har plugin register hook end...
+[2026-05-12T16:56:30.249] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T16:56:30.250] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T16:56:30.250] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\aaa\MultiCommunityApplication\features\picture\hvigorfile.ts
+[2026-05-12T16:56:30.250] [DEBUG] debug-file - hvigorfile, resolve finished F:\aaa\MultiCommunityApplication\features\picture\hvigorfile.ts
+[2026-05-12T16:56:30.251] [DEBUG] debug-file - project has submodules:phone,base,detail,hot,rank,picture
+[2026-05-12T16:56:30.252] [DEBUG] debug-file - module:base no need to execute packageHap
+[2026-05-12T16:56:30.252] [DEBUG] debug-file - module:detail no need to execute packageHap
+[2026-05-12T16:56:30.253] [DEBUG] debug-file - module:hot no need to execute packageHap
+[2026-05-12T16:56:30.253] [DEBUG] debug-file - module:rank no need to execute packageHap
+[2026-05-12T16:56:30.254] [DEBUG] debug-file - module:picture no need to execute packageHap

@@ -120,8 +120,8 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "detail@file:features/detail": {
-      "storePath": "features/detail",
+    "rank@file:features/rank": {
+      "storePath": "features/rank",
       "dependencies": {
         "base": "commons/base"
       },
@@ -130,8 +130,8 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "rank@file:features/rank": {
-      "storePath": "features/rank",
+    "detail@file:features/detail": {
+      "storePath": "features/detail",
       "dependencies": {
         "base": "commons/base"
       },
