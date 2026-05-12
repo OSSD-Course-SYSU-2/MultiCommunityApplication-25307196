@@ -74,6 +74,7 @@
 │  │  ├──BreakpointType.ets                        // 断点类型类
 │  │  └──CommonConstants.ets                       // 公共常量类
 │  ├──model
+│  │  ├──AICommentModel.ets                        // AI评论实体类
 │  │  ├──CardListModel.ets                         // 卡片实体类
 │  │  ├──CommentModel.ets                          // 评论实体类（含观点站队、情绪分析、质量判断数据）
 │  │  ├──HotModel.ets                              // 热搜实体类
@@ -86,17 +87,25 @@
 │  ├──detail/src/main/ets
 │  │  ├──constants
 │  │  │  └──CommonConstants.ets                    // 详情页常量类
+│  │  ├──service
+│  │  │  └──AIPolishService.ets                    // AI润色服务类
 │  │  ├──view
+│  │  │  ├──AIPolishPanelView.ets                  // AI润色面板组件
+│  │  │  ├──AIPolishResultView.ets                 // AI润色结果组件
+│  │  │  ├──AIPolishStyleView.ets                  // AI润色样式组件
+│  │  │  ├──AIQualityAnalysisView.ets              // AI质量分析组件
 │  │  │  ├──CommentBarView.ets                     // 评论工具栏
 │  │  │  ├──CommentInputView.ets                   // 评论输入栏
+│  │  │  ├──CommentInputWithAIView.ets             // AI评论输入栏
 │  │  │  ├──CommentItemView.ets                    // 评论项
 │  │  │  ├──CommentListView.ets                    // 评论列表
+│  │  │  ├──CommentQualityView.ets                 // 评论质量判断组件
 │  │  │  ├──DetailPage.ets                         // 详情页
+│  │  │  ├──DetailPageWithAI.ets                   // AI增强详情页
 │  │  │  ├──DetailTitleView.ets                    // 详情页标题栏
-│  │  │  ├──MircoBlogView.ets                      // 卡片信息
-│  │  │  ├──StanceVoteView.ets                     // 观点站队投票组件
 │  │  │  ├──EmotionHeatmapView.ets                 // 评论情绪热力图组件
-│  │  │  └──CommentQualityView.ets                 // 评论质量判断组件
+│  │  │  ├──MircoBlogView.ets                      // 卡片信息
+│  │  │  └──StanceVoteView.ets                     // 观点站队投票组件
 │  │  └──viewmodel
 │  │     ├──CardArrayViewModel.ets                 // 卡片列表管理类
 │  │     └──CardViewModel.ets                      // 卡片管理类
@@ -123,21 +132,22 @@
 │     │  └──CommonConstants.ets                    // 榜单常量类
 │     └──view
 │        ├──HotListItemView.ets                    // 热搜项
-│        ├──HotRankPage.ets                        // 榜单页
-│        └──HotListView.ets                        // 热搜列表
+│        ├──HotListView.ets                        // 热搜列表
+│        └──HotRankPage.ets                        // 榜单页
 └──products
-   ├──phone/src/main/ets
-   │  ├──entryability
-   │  │  └──EntryAbility.ets                       // 程序入口类
-   │  ├──model
-   │  │  └──TabBarModel.ets                        // 页签实体类
-   │  ├──pages
-   │  │  └──MainPage.ets                           // 主界面
-   │  ├──view
-   │  │  └──TabContentView.ets                     // 首页页签
-   │  └──viewmodel
-   │     └──TabBarViewModel.ets                    // 页签管理类
-   └──phone/src/main/resources
+   └──phone/src/main
+      ├──ets
+      │  ├──entryability
+      │  │  └──EntryAbility.ets                    // 程序入口类
+      │  ├──model
+      │  │  └──TabBarModel.ets                     // 页签实体类
+      │  ├──pages
+      │  │  └──MainPage.ets                        // 主界面
+      │  ├──view
+      │  │  └──TabContentView.ets                  // 首页页签
+      │  └──viewmodel
+      │     └──TabBarViewModel.ets                 // 页签管理类
+      └──resources                                 // 资源文件目录
 ```
 
 ## 具体实现
