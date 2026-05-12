@@ -5,18 +5,18 @@
 	"BuildOptions":{
 		"SELECT_BUILD_TARGET":"default",
 		"BUILD_PATH":{
-			"OUTPUT_METADATA_JSON":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
-			"OUTPUT_PATH":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\outputs\\default",
-			"RES_PATH":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\res\\default",
-			"ETS_SUPER_VISUAL_PATH":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
-			"JS_ASSETS_PATH":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\loader_out\\default",
-			"SOURCE_MAP_DIR":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\source_map\\default",
-			"INTERMEDIA_PATH":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates",
-			"RES_PROFILE_PATH":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
-			"WORKER_LOADER":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\loader\\default\\loader.json",
-			"MANIFEST_JSON":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\manifest\\default",
-			"JS_LITE_ASSETS_PATH":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\loader_out_lite\\default",
-			"JS_SUPER_VISUAL_PATH":"F:\\aaa\\MultiCommunityApplication\\features\\detail\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle"
+			"OUTPUT_METADATA_JSON":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+			"OUTPUT_PATH":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\outputs\\default",
+			"RES_PATH":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\res\\default",
+			"ETS_SUPER_VISUAL_PATH":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+			"JS_ASSETS_PATH":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\loader_out\\default",
+			"SOURCE_MAP_DIR":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\source_map\\default",
+			"INTERMEDIA_PATH":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates",
+			"RES_PROFILE_PATH":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+			"WORKER_LOADER":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\loader\\default\\loader.json",
+			"MANIFEST_JSON":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\manifest\\default",
+			"JS_LITE_ASSETS_PATH":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\intermediates\\loader_out_lite\\default",
+			"JS_SUPER_VISUAL_PATH":"F:\\MultiCommunityApplication\\features\\detail\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle"
 		}
 	}
 }

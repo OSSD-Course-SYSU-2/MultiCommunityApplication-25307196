@@ -66,6 +66,20 @@
 
 ![](screenshots/features/comment-quality.png)
 
+#### 4. 图对图评论互动
+- 评论区支持上传图片、短视频、表情包进行回复
+- 支持三种媒体分类：普通图片、同款风景图、搞笑梗图
+- 用户可以发自己拍的同款风景图进行对比
+- 支持发送吐槽的搞笑梗图增加互动趣味性
+- 表情包快速选择，一键发送
+- 支持多图上传，最多可上传9张图片
+- 媒体预览支持点击放大查看
+- 视频支持显示时长和播放控制
+
+**效果展示：**
+
+![](screenshots/features/media-comment.png)
+
 ## 工程目录
 ```
 ├──commons/base/src/main/ets                       // 公共能力层
@@ -104,6 +118,8 @@
 │  │  │  ├──DetailPageWithAI.ets                   // AI增强详情页
 │  │  │  ├──DetailTitleView.ets                    // 详情页标题栏
 │  │  │  ├──EmotionHeatmapView.ets                 // 评论情绪热力图组件
+│  │  │  ├──MediaPickerView.ets                    // 媒体选择器组件（图对图评论）
+│  │  │  ├──MediaGalleryView.ets                   // 媒体展示组件（图对图评论）
 │  │  │  ├──MircoBlogView.ets                      // 卡片信息
 │  │  │  └──StanceVoteView.ets                     // 观点站队投票组件
 │  │  └──viewmodel
@@ -170,6 +186,16 @@
 - **组件**: `CommentQualityView.ets`、`FoldableCommentContainer`
 - **数据结构**: `CommentQualityType`枚举、`QualityData`接口
 - **实现方式**: 高质量评论显示标签优先展示，低质量评论自动折叠，支持手动展开/收起
+
+#### 图对图评论互动
+- **组件**: `MediaPickerView.ets`（媒体选择器）、`MediaGalleryView.ets`（媒体展示）、`MediaPreviewView.ets`（媒体预览）
+- **数据结构**: `MediaType`枚举（图片、视频、表情包）、`MediaCategory`枚举（普通、同款风景、搞笑梗图）、`MediaData`接口
+- **实现方式**:
+  - 在评论输入框集成媒体选择按钮，点击展开媒体选择器
+  - 支持从相册选择图片/视频或使用表情包快速回复
+  - 媒体分类标签帮助用户快速识别内容类型（同款风景、搞笑梗图）
+  - 评论列表中自动展示媒体内容，支持多图网格布局
+  - 点击媒体可放大预览，视频支持播放控制
 
 ## 相关权限
 

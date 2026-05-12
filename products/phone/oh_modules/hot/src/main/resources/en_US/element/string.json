@@ -1,0 +1,164 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "placeholder",
+      "value": "search"
+    },
+    {
+      "name": "read_total_rank",
+      "value": "View the complete list"
+    },
+    {
+      "name": "follow",
+      "value": "Follow"
+    },
+    {
+      "name": "found",
+      "value": "Found"
+    },
+    {
+      "name": "read_total",
+      "value": "Total"
+    },
+    {
+      "name": "more",
+      "value": "More"
+    },
+    {
+      "name": "follow_list_name_1",
+      "value": "photo"
+    },
+    {
+      "name": "follow_list_date_1",
+      "value": "2 hours·public"
+    },
+    {
+      "name": "follow_list_type_1",
+      "value": "mountaineering"
+    },
+    {
+      "name": "follow_list_subtype_1",
+      "value": "travel"
+    },
+    {
+      "name": "follow_list_content_1",
+      "value": "The mountain is very high"
+    },
+    {
+      "name": "follow_list_name_2",
+      "value": "The charm of nature"
+    },
+    {
+      "name": "follow_list_date_2",
+      "value": "11 hours·public"
+    },
+    {
+      "name": "follow_list_name_3",
+      "value": "water"
+    },
+    {
+      "name": "follow_list_date_3",
+      "value": "3 hours·public"
+    },
+    {
+      "name": "follow_list_name_4",
+      "value": "evaluation"
+    },
+    {
+      "name": "follow_list_date_4",
+      "value": "just now"
+    },
+    {
+      "name": "follow_list_name_5",
+      "value": "painter"
+    },
+    {
+      "name": "follow_list_name_6",
+      "value": "classics"
+    },
+    {
+      "name": "follow_list_date_6",
+      "value": "8 hours·public"
+    },
+    {
+      "name": "follow_list_name_7",
+      "value": "nature"
+    },
+    {
+      "name": "follow_list_name_8",
+      "value": "effect"
+    },
+    {
+      "name": "follow_list_date_8",
+      "value": "13 hours·public"
+    },
+    {
+      "name": "follow_list_name_9",
+      "value": "chinese classics"
+    },
+    {
+      "name": "follow_detail_name_1",
+      "value": "total"
+    },
+    {
+      "name": "follow_detail_name_2",
+      "value": "nature"
+    },
+    {
+      "name": "follow_detail_name_3",
+      "value": "science"
+    },
+    {
+      "name": "follow_detail_name_4",
+      "value": "scenery"
+    },
+    {
+      "name": "follow_detail_name_5",
+      "value": "society"
+    },
+    {
+      "name": "follow_detail_name_6",
+      "value": "society"
+    },
+    {
+      "name": "follow_detail_content_1",
+      "value": "photography/10 followers"
+    },
+    {
+      "name": "follow_detail_content_2",
+      "value": "photography/50000 followers"
+    },
+    {
+      "name": "follow_detail_content_3",
+      "value": "200,000 followers"
+    },
+    {
+      "name": "follow_detail_content_4",
+      "value": "evaluation"
+    },
+    {
+      "name": "follow_detail_content_5",
+      "value": "mountains"
+    },
+    {
+      "name": "follow_detail_content_6",
+      "value": "chinese classics"
+    },
+    {
+      "name": "follow_detail_content_7",
+      "value": "30000 followers"
+    },
+    {
+      "name": "follow_detail_content_8",
+      "value": "2 hours ago"
+    },
+    {
+      "name": "follow_title_content",
+      "value": "public"
+    }
+  ]
+}

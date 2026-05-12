@@ -15,6 +15,7 @@ import type { CommentItemInterface } from "@normalized:N&&&base/Index&1.0.0";
 import { CommonConstants as Common } from "@normalized:N&&&detail/src/main/ets/constants/CommonConstants&1.0.0";
 import { EmotionHeatmapView } from "@normalized:N&&&detail/src/main/ets/view/EmotionHeatmapView&1.0.0";
 import { CommentQualityView, FoldableCommentContainer } from "@normalized:N&&&detail/src/main/ets/view/CommentQualityView&1.0.0";
+import { MediaGalleryView } from "@normalized:N&&&detail/src/main/ets/view/MediaGalleryView&1.0.0";
 export class CommentItemView extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
         super(parent, __localStorage, elmtId, extraInfo);
@@ -125,7 +126,7 @@ export class CommentItemView extends ViewPU {
                                     content: () => {
                                         this.CommentContent();
                                     }
-                                }, undefined, elmtId, () => { }, { page: "features/detail/src/main/ets/view/CommentItemView.ets", line: 51, col: 9 });
+                                }, undefined, elmtId, () => { }, { page: "features/detail/src/main/ets/view/CommentItemView.ets", line: 52, col: 9 });
                                 ViewPU.create(componentCall);
                                 let paramsLambda = () => {
                                     return {
@@ -248,7 +249,7 @@ export class CommentItemView extends ViewPU {
                             if (isInitialRender) {
                                 let componentCall = new CommentQualityView(this, {
                                     qualityData: this.commentItem.qualityData
-                                }, undefined, elmtId, () => { }, { page: "features/detail/src/main/ets/view/CommentItemView.ets", line: 121, col: 9 });
+                                }, undefined, elmtId, () => { }, { page: "features/detail/src/main/ets/view/CommentItemView.ets", line: 122, col: 9 });
                                 ViewPU.create(componentCall);
                                 let paramsLambda = () => {
                                     return {
@@ -283,6 +284,47 @@ export class CommentItemView extends ViewPU {
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             If.create();
+            // 媒体展示（图对图评论）
+            if (this.commentItem.mediaList && this.commentItem.mediaList.length > 0) {
+                this.ifElseBranchUpdateFunction(0, () => {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        Column.create();
+                        Column.width('100%');
+                        Column.margin({ left: { "id": 67109315, "type": 10002, params: [], "bundleName": "com.huawei.multicommunityapplication", "moduleName": "phone" } });
+                    }, Column);
+                    {
+                        this.observeComponentCreation2((elmtId, isInitialRender) => {
+                            if (isInitialRender) {
+                                let componentCall = new MediaGalleryView(this, {
+                                    mediaList: this.commentItem.mediaList,
+                                    isDarkMode: this.isDarkMode
+                                }, undefined, elmtId, () => { }, { page: "features/detail/src/main/ets/view/CommentItemView.ets", line: 137, col: 11 });
+                                ViewPU.create(componentCall);
+                                let paramsLambda = () => {
+                                    return {
+                                        mediaList: this.commentItem.mediaList,
+                                        isDarkMode: this.isDarkMode
+                                    };
+                                };
+                                componentCall.paramsGenerator_ = paramsLambda;
+                            }
+                            else {
+                                this.updateStateVarsOfChildByElmtId(elmtId, {});
+                            }
+                        }, { name: "MediaGalleryView" });
+                    }
+                    Column.pop();
+                });
+            }
+            // 情绪热力图显示
+            else {
+                this.ifElseBranchUpdateFunction(1, () => {
+                });
+            }
+        }, If);
+        If.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            If.create();
             // 情绪热力图显示
             if (this.commentItem.emotionData) {
                 this.ifElseBranchUpdateFunction(0, () => {
@@ -291,7 +333,7 @@ export class CommentItemView extends ViewPU {
                             if (isInitialRender) {
                                 let componentCall = new EmotionHeatmapView(this, {
                                     emotionData: this.commentItem.emotionData
-                                }, undefined, elmtId, () => { }, { page: "features/detail/src/main/ets/view/CommentItemView.ets", line: 135, col: 9 });
+                                }, undefined, elmtId, () => { }, { page: "features/detail/src/main/ets/view/CommentItemView.ets", line: 148, col: 9 });
                                 ViewPU.create(componentCall);
                                 let paramsLambda = () => {
                                     return {

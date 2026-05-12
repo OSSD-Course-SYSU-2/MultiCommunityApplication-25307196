@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "detail_write_comment",
+      "value": "comments"
+    },
+    {
+      "name": "comment_list_title",
+      "value": "comment"
+    },
+    {
+      "name": "card_detail_title",
+      "value": "detail"
+    },
+    {
+      "name": "blog_follow",
+      "value": "follow"
+    },
+    {
+      "name": "author_type_name",
+      "value": "original poster"
+    },
+    {
+      "name": "replay",
+      "value": "replay"
+    },
+    {
+      "name": "read_all_replay",
+      "value": "view all replies"
+    }
+  ]
+}

@@ -160,7 +160,7 @@
       "error": false
     },
     "F:\\MultiCommunityApplication\\commons\\base\\Index.ets": {
-      "mtimeMs": 1776783548450.0498,
+      "mtimeMs": 1778579852315.9753,
       "children": [
         "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\constants\\BreakpointConstants.ets",
         "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\constants\\BreakpointType.ets",
@@ -207,7 +207,9 @@
         "F:\\MultiCommunityApplication\\features\\hot\\src\\main\\ets\\view\\FollowView.ets",
         "F:\\MultiCommunityApplication\\features\\hot\\src\\main\\ets\\view\\CardItemView.ets",
         "F:\\MultiCommunityApplication\\features\\hot\\src\\main\\ets\\view\\HotTitleView.ets",
-        "F:\\MultiCommunityApplication\\features\\hot\\src\\main\\ets\\view\\SearchBarView.ets"
+        "F:\\MultiCommunityApplication\\features\\hot\\src\\main\\ets\\view\\SearchBarView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\MediaGalleryView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\MediaPickerView.ets"
       ],
       "error": false
     },
@@ -1604,7 +1606,7 @@
       "error": false
     },
     "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\viewmodel\\CommentViewModel.ets": {
-      "mtimeMs": 1776157955972.1384,
+      "mtimeMs": 1778579002566.3362,
       "children": [],
       "parent": [
         "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
@@ -1613,7 +1615,7 @@
       "error": false
     },
     "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\model\\CommentModel.ets": {
-      "mtimeMs": 1776158026616.1592,
+      "mtimeMs": 1778580140272.7595,
       "children": [
         "F:\\MultiCommunityApplication\\commons\\base\\src\\main\\ets\\viewmodel\\CommentViewModel.ets"
       ],
@@ -1832,10 +1834,11 @@
       "error": false
     },
     "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputView.ets": {
-      "mtimeMs": 1774267850000,
+      "mtimeMs": 1778580075879.3677,
       "children": [
         "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
-        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\constants\\CommonConstants.ets"
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\constants\\CommonConstants.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\MediaPickerView.ets"
       ],
       "parent": [
         "F:\\MultiCommunityApplication\\features\\detail\\Index.ets"
@@ -1943,13 +1946,14 @@
       "error": false
     },
     "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentItemView.ets": {
-      "mtimeMs": 1776160529222.4514,
+      "mtimeMs": 1778579249169.3743,
       "children": [
         "F:\\MultiCommunityApplication\\commons\\base\\Index.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\constants\\CommonConstants.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\StanceVoteView.ets",
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\EmotionHeatmapView.ets",
-        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentQualityView.ets"
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentQualityView.ets",
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\MediaGalleryView.ets"
       ],
       "parent": [
         "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentListView.ets"
@@ -2679,6 +2683,26 @@
       ],
       "parent": [
         "F:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cert.d.ts"
+      ],
+      "error": false
+    },
+    "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\MediaGalleryView.ets": {
+      "mtimeMs": 1778580051081.9858,
+      "children": [
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets"
+      ],
+      "parent": [
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentItemView.ets"
+      ],
+      "error": false
+    },
+    "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\MediaPickerView.ets": {
+      "mtimeMs": 1778580020864.5376,
+      "children": [
+        "F:\\MultiCommunityApplication\\commons\\base\\Index.ets"
+      ],
+      "parent": [
+        "F:\\MultiCommunityApplication\\features\\detail\\src\\main\\ets\\view\\CommentInputView.ets"
       ],
       "error": false
     }

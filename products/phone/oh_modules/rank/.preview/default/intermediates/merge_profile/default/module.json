@@ -1,0 +1,29 @@
+{
+	"app": {
+		"bundleName": "com.huawei.multicommunityapplication",
+		"debug": true,
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"minAPIVersion": 50005017,
+		"targetAPIVersion": 60002022,
+		"apiReleaseType": "Release",
+		"targetMinorAPIVersion": 0,
+		"targetPatchAPIVersion": 0,
+		"compileSdkVersion": "6.0.2.130",
+		"compileSdkType": "HarmonyOS",
+		"appEnvironments": [],
+		"bundleType": "app",
+		"buildMode": "debug"
+	},
+	"module": {
+		"name": "rank",
+		"type": "har",
+		"description": "$string:shared_desc",
+		"deviceTypes": [
+			"phone",
+			"tablet"
+		],
+		"packageName": "rank",
+		"installationFree": false
+	}
+}

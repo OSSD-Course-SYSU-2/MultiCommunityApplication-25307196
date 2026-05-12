@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "rank_title",
+      "value": "Hot Search List"
+    },
+    {
+      "name": "ran_sub_title",
+      "value": "The latest and hottest events are all here"
+    }
+  ]
+}

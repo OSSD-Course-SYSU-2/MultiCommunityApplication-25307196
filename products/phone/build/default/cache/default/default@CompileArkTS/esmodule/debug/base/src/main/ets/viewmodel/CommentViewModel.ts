@@ -33,6 +33,29 @@ export enum CommentQualityType {
     NORMAL = "normal",
     LOW = "low" // 低质量：刷屏、引战、水评
 }
+// 媒体类型
+export enum MediaType {
+    IMAGE = "image",
+    VIDEO = "video",
+    STICKER = "sticker" // 表情包
+}
+// 媒体分类标签
+export enum MediaCategory {
+    SAME_SCENE = "same_scene",
+    FUNNY_MEME = "funny_meme",
+    NORMAL = "normal" // 普通图片
+}
+// 媒体数据接口
+export interface MediaData {
+    type: MediaType; // 媒体类型
+    url: string | Resource; // 媒体资源
+    thumbnail?: string | Resource; // 缩略图（视频用）
+    category?: MediaCategory; // 媒体分类
+    description?: string; // 媒体描述
+    width?: number; // 宽度
+    height?: number; // 高度
+    duration?: number; // 时长（视频用，单位秒）
+}
 // 观点站队数据接口
 export interface StanceData {
     userStance: StanceType; // 当前用户的立场
@@ -67,6 +90,7 @@ export interface CommentItemInterface {
     emotionData?: EmotionData; // 情绪分析数据
     qualityData?: QualityData; // 评论质量数据
     isControversial?: boolean; // 是否为争议话题
+    mediaList?: MediaData[]; // 媒体列表（图片、视频、表情包）
 }
 export class CommentItem implements CommentItemInterface {
     icon: ResourceStr;
@@ -80,6 +104,7 @@ export class CommentItem implements CommentItemInterface {
     emotionData?: EmotionData;
     qualityData?: QualityData;
     isControversial?: boolean;
+    mediaList?: MediaData[];
     constructor(item: CommentItemInterface) {
         this.icon = item.icon;
         this.name = item.name;
@@ -103,6 +128,9 @@ export class CommentItem implements CommentItemInterface {
         }
         if (item?.isControversial !== undefined) {
             this.isControversial = item.isControversial;
+        }
+        if (item?.mediaList) {
+            this.mediaList = item.mediaList;
         }
     }
 }
